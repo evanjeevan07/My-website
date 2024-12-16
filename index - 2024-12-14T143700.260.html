@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Profile Card</title>
+    <link rel="stylesheet" href="style.CSS" />
+</head>
+<body>
+  <style type="text/css" media="all">
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    font-family: "Inknut Antiqua", serif;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile-header {
+    position: relative;
+    height: 150px;
+    background-color: #007bff;
+   }
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+    opacity: 0.7;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+ 
+ img{
+   width: 100px;
+   position: relative;
+   bottom: 6px;
+ }
+
+.profile-details {
+    padding: 60px 20px 20px;
+}
+
+.profile-details h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: "Inknut Antiqua", serif;
+}
+
+.profile-details p {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+   
+  
+}
+
+.follow-btn {
+    background-color: #4a7cff;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.follow-btn:hover {
+    background-color: #3a5fcc;
+}
+
+a{
+    margin: 0 10px;
+    text-decoration: none;
+   
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2
+  </style>
+    <div class="profile-card">
+        <div class="profile-header">
+            <img src="https://assets.onecompiler.app/3zky9aw9p/432ypc8ny/Ratan%20Tata%20Talked%20About%20His%20First%20Love%20And%20How%20Indo-China%20War%20Became%20The%20Reason%20For%20His%20Breakup.jpeg" alt="Profile Background" class="background-image">
+            <div class="profile-image">
+              <img src="https://assets.onecompiler.app/3zky9aw9p/432z6meqj/images%20-%202024-11-27T204619.674.jpeg" alt="" />
+            </div>
+        </div>
+        <div class="profile-details">
+            <h2>EV SANJEEVAN</h2>
+            <p>@evsanjeevan</p>
+            <button class="follow-btn">FOLLOW</button>
+        </div>
+<div class="social-icons">
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Instagram"></a>
+            <a href="#"><img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" alt="GitHub"></a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZg3seAAeI7PGxFYBGID4JWIbyOvSVdHuaJcKlpCDlHv1RgrazqvfFeFk&s=10" alt="LinkedIn"></a>
+        </div>
+    </div>
+</body>
+</html>
